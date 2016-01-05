@@ -1,0 +1,14 @@
+{
+    "input":  "./css/index.css", // input cssRoot
+    "output": {
+        "cssRoot":"./isprite",
+        "margin": 30,
+        /**
+         * 配置图片是否垂直方向拼接，默认值为false
+         * 0: 使用默认的bin-packing算法排序图片
+         * 1:  垂直方向拼接
+         * 2:  水平方向拼接
+        */
+        "direction": 0
+    }
+}
