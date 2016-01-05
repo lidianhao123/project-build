@@ -6,7 +6,7 @@ var program = require('commander'),
 program
   .version(require('../package.json').version)
   .usage('[options] [project name]')
-  .option('-T, --template <str>', 'generate project with specify template (pc/h5/self) ')
+  .option('-T, --template <str>', 'generate project with specify template (pc/h5/self) and other DIY template folder name ')
   .parse(process.argv);
 
 var pname = program.args[0]
